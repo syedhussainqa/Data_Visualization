@@ -71,7 +71,7 @@
     position: relative;
   }
   
-  @media print, screen and (min-width: 40em) {
+  @media (min-width: 40em) {
     .bar-graph .bar-graph-label:before, .bar-graph .bar-graph-label:after {
       content: "";
       position: absolute;
@@ -83,13 +83,13 @@
     }
   }
   
-  @media print, screen and (min-width: 40em) and (min-width: 64em) {
+  @media (min-width: 40em) and (min-width: 64em) {
     .bar-graph .bar-graph-label:before, .bar-graph .bar-graph-label:after {
       width: 30%;
     }
   }
   
-  @media print, screen and (min-width: 40em) {
+  @media (min-width: 40em) {
     .bar-graph .bar-graph-label:after {
       left: auto;
       right: 0;
@@ -104,7 +104,7 @@
     position: absolute;
   }
   
-  @media print, screen and (min-width: 40em) {
+  @media (min-width: 600px) {
     .bar-graph .percent {
       font-size: 2.875rem;
     }
